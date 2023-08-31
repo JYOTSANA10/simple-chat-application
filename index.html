@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Application</title>
+    <script defer src="http://192.168.10.52:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+    <style>
+        h2{
+        text-align: center;
+        }
+      .right {
+        float: right;
+        clear: both;
+      } 
+      .left {
+        float: left;
+        clear: both;
+      }
+      .left {
+        float: both;
+        clear: both;
+      }
+      .container {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        border: solid black;
+        padding: 20px;
+        padding-bottom: 40px;
+      }
+      .container2 {
+        margin-top: 200px;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+      }
+      #inputbox{
+        width: 450px;
+        padding: 10px;
+      }
+      #submit{
+        padding: 10px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav><h2>My Group</h2></nav>
+      <div class="container">
+        
+      </div>
+      <div class="container2">
+        <form action="#" id="submit-form">
+          <input type="text" id="inputbox" />
+          <button type="submit" id="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
